@@ -61,6 +61,18 @@ opt.clipboard = "unnamedplus"
 -- Nicer completion menu behavior
 opt.completeopt = { "menuone", "noselect" }
 
+-- Show LSP errors inline (Neovim 0.12 defaults virtual_text to off)
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  underline = true,
+  update_in_insert = false,
+  float = {
+    border = "rounded",
+    source = "always",
+  },
+})
+
 -- ----------------------------------------------------------------------------
 --  Core keymaps  (plugin-specific maps live next to their plugins below)
 -- ----------------------------------------------------------------------------
