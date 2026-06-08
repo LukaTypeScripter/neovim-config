@@ -3,6 +3,8 @@
 Personal Neovim setup. Theme: **Catppuccin Mocha**. Plugin manager: **lazy.nvim**.
 Plugin versions are pinned in `lazy-lock.json` for reproducible installs across machines.
 
+📋 **See [KEYMAPS.md](KEYMAPS.md) for the full keybinding reference.**
+
 ## Setting up on a new device
 
 ### 1. Install Neovim + external tools
