@@ -1,0 +1,7 @@
+# Editor / OS junk
+*.swp
+*.swo
+.DS_Store
+
+# Anything lazy.nvim might drop into the config dir (plugins live elsewhere)
+/lazy/
